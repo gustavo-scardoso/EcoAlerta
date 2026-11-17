@@ -1,0 +1,89 @@
+{
+  "format_version": 1,
+  "saved_at": "16/11/2026 23:12:05",
+  "tables": {
+    "users": [
+      {
+        "id": 1,
+        "name": "Coordenador EcoAlerta",
+        "email": "coordenador@ecoalerta.local",
+        "password_hash": "b5f88a01990a81b710009542a4857ee2$e9c9f750d1c6dad708c1fed32980112a9f431d7befa7f591120b35a9e715d262",
+        "role": "coordenador",
+        "created_at": "16/11/2026 23:09:33"
+      },
+      {
+        "id": 2,
+        "name": "Técnico Demonstrativo",
+        "email": "tecnico@ecoalerta.local",
+        "password_hash": "256dfb7237e8ea68660b059e7ab191e2$504c457599a34d374b12f9f0abb8ca55e97e7ea737b033b3cf1434c21277c73b",
+        "role": "tecnico",
+        "created_at": "16/11/2026 23:09:33"
+      }
+    ],
+    "occurrences": [
+      {
+        "id": 1,
+        "title": "Desmatamento em área verde",
+        "category": "Desmatamento",
+        "description": "Registro demonstrativo de retirada irregular de vegetação.",
+        "location": "Parque Municipal - Setor Norte",
+        "occurrence_date": "10/11/2026",
+        "status": "Em análise",
+        "created_by": 2,
+        "created_at": "16/11/2026 23:09:33"
+      },
+      {
+        "id": 2,
+        "title": "Descarte irregular de resíduos",
+        "category": "Descarte irregular de lixo",
+        "description": "Resíduos descartados em local não autorizado.",
+        "location": "Rua das Palmeiras, 120",
+        "occurrence_date": "12/11/2026",
+        "status": "Aberta",
+        "created_by": 2,
+        "created_at": "16/11/2026 23:09:33"
+      },
+      {
+        "id": 3,
+        "title": "Foco de queimada",
+        "category": "Queimada",
+        "description": "Pequeno foco de queimada registrado para fins de demonstração.",
+        "location": "Área rural - Estrada do Lago",
+        "occurrence_date": "14/11/2026",
+        "status": "Resolvida",
+        "created_by": 2,
+        "created_at": "16/11/2026 23:09:33"
+      }
+    ],
+    "evidences": [
+      {
+        "id": 1,
+        "occurrence_id": 1,
+        "stored_name": "demo_floresta.png",
+        "original_name": "evidencia_desmatamento.png",
+        "sha256": "52231ba9bcfce17ac7b408920b9fba098fb6d29ef39f1acd386bbf845ad0a1e4",
+        "encrypted": 0,
+        "added_at": "16/11/2026 23:09:33"
+      },
+      {
+        "id": 2,
+        "occurrence_id": 2,
+        "stored_name": "demo_lixo.png",
+        "original_name": "evidencia_descarte.png",
+        "sha256": "52231ba9bcfce17ac7b408920b9fba098fb6d29ef39f1acd386bbf845ad0a1e4",
+        "encrypted": 0,
+        "added_at": "16/11/2026 23:09:33"
+      },
+      {
+        "id": 3,
+        "occurrence_id": 3,
+        "stored_name": "demo_queimada.png",
+        "original_name": "evidencia_queimada.png",
+        "sha256": "52231ba9bcfce17ac7b408920b9fba098fb6d29ef39f1acd386bbf845ad0a1e4",
+        "encrypted": 0,
+        "added_at": "16/11/2026 23:09:33"
+      }
+    ],
+    "audit": []
+  }
+}
